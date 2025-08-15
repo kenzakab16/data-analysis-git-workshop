@@ -11,4 +11,3 @@ if __name__ == "__main__":
 
     df.isnull
     df.fillna(0, inplace=True)
-    \end{code}
