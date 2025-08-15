@@ -8,3 +8,7 @@ def clean_sales_data(file_path):
 if __name__ == "__main__":
     df = clean_sales_data("data/sales.csv")
     print(df.head())
+
+    df.isnull
+    df.fillna(0, inplace=True)
+    \end{code}
