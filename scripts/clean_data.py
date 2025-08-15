@@ -2,7 +2,8 @@ import pandas as pd
 
 def clean_sales_data(file_path):
     df = pd.read_csv(file_path)
-    df.dropna(inplace=True)
+    #df.dropna(inplace=True)
+    df.drop_duplicates(inplace=True)
     return df
 
 if __name__ == "__main__":
